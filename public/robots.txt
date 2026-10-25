@@ -10,3 +10,7 @@ Crawl-delay: 10
 
 # Sitemaps
 # (none — profile URLs are user-generated and unbounded)
+
+# https://crawler.exa.ai/ - high percentage of traffic which burns Cloudflare Workers usage
+User-agent: ExaSearchBot
+Disallow: /
