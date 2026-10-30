@@ -38,7 +38,7 @@ You agree not to use the Service to:
 
 ## 6. Intellectual Property
 
-The pronouns.blue source code is open-source and available on [GitHub](https://github.com/trueberryless-org/pronouns.blue) under the MIT license. The pronouns.blue name and logo assets are the property of the project maintainers. You may not use them to imply endorsement without permission.
+The pronouns.blue source code is open-source and available on [GitHub](https://github.com/trueberryless/pronouns.blue) under the MIT license. The pronouns.blue name and logo assets are the property of the project maintainers. You may not use them to imply endorsement without permission.
 
 ## 7. Disclaimer of Warranties
 
@@ -54,4 +54,4 @@ We may update these Terms of Service from time to time. When we do, the “Last 
 
 ## 10. Contact
 
-Questions about these terms? Open an issue on [GitHub](https://github.com/trueberryless-org/pronouns.blue/issues/new/choose).
+Questions about these terms? Open an issue on [GitHub](https://github.com/trueberryless/pronouns.blue/issues/new/choose).
