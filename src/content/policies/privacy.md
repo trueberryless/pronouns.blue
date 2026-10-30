@@ -35,4 +35,4 @@ Sign out to delete your browser-stored OAuth session. Your name/pronoun records 
 
 ## Contact
 
-Questions or concerns? Open an issue on [GitHub](https://github.com/trueberryless-org/pronouns.blue/issues/new/choose).
+Questions or concerns? Open an issue on [GitHub](https://github.com/trueberryless/pronouns.blue/issues/new/choose).
