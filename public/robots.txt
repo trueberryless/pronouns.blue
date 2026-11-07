@@ -1,16 +1,39 @@
-User-agent: *
-# Don't crawl API routes, OAuth flows, or the settings page.
+# Allow legitimate search engines to index public pages
+User-agent: Googlebot
 Disallow: /api/
 Disallow: /oauth/
 Disallow: /settings
+Allow: /
 
-# Slow down aggressive crawlers — 1 request per 10 seconds is plenty for
-# a site whose content doesn't change more than a few times per day.
+User-agent: Bingbot
+Disallow: /api/
+Disallow: /oauth/
+Disallow: /settings
 Crawl-delay: 10
+Allow: /
 
-# Sitemaps
-# (none — profile URLs are user-generated and unbounded)
-
-# https://crawler.exa.ai/ - high percentage of traffic which burns Cloudflare Workers usage
+# Completely block AI crawlers, scrapers, and SEO bots
 User-agent: ExaSearchBot
+User-agent: SemrushBot
+User-agent: Amazonbot
+User-agent: KeenableBot
+User-agent: YouBot
+User-agent: Bravebot
+User-agent: at-store-oauth-scope-probe
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: CCBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: Bytespider
+User-agent: PerplexityBot
+User-agent: Applebot-Extended
 Disallow: /
+
+# Default fallback for other crawlers
+User-agent: *
+Disallow: /api/
+Disallow: /oauth/
+Disallow: /settings
+Crawl-delay: 10
+Allow: /
